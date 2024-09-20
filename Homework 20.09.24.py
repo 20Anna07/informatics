@@ -30,3 +30,15 @@
 #         max_count = list1.count(i)
 #         max_elem = i
 # print(max_elem)
+
+# №5
+# list1 = list(input().split())
+# g = int(list1[0])
+# list1 = str(list1[1])
+# num = len(list1)//g
+# str2 = ''
+# for i in range(num):
+#     new_line = list1[(i * g):((i + 1) * g)]
+#     add = new_line[::-1]
+#     str2 += add
+# print(str2)
