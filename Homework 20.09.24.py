@@ -1,7 +1,7 @@
 #№1
 #list1 = list(map(int, input().split()))
 #list2 = [list1[1], list1[0], list1[3], list1[2], list1[4]]
-#print(list2)
+#print(*list2)
 
 #№1.1 (в общем случае)
 #list1  = list(map(int, input().split()))
@@ -9,11 +9,12 @@
     #a = list1[i]
     #list1[i] = list1[i + 1]
     #list1[i + 1] = a
-#print(list1)
+#print(*list1)
 
 #№2
-#list1 = list(map(int, input().split()))
-#print([list1[-1]] + list1[:-1])
+# list1 = list(map(int, input().split()))
+# list2 = [list1[-1]] + list1[:-1]
+# print(*list2)
 
 #№3
 #list1 = list(map(int, input().split()))
