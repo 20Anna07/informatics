@@ -25,7 +25,7 @@ class Characteristics(Students):
         elif self.course == 'fourth':
             self.happiness = 5
             self.health = 7
-            self.knowledge = 8
+            self.knowledge =  8
         elif self.course == 'graduate':
             self.happiness = 10
             self.health = 10
